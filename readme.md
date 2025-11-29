@@ -1,4 +1,4 @@
-# C++ Internals Implementation Course (2024)
+# C++ Internals Implementation (2024)
 
 This repository contains a collection of educational C++ projects designed to explore the internal workings of standard library containers, memory management patterns, and iterator logic.
 
