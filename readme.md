@@ -6,6 +6,7 @@ Each folder represents an isolated task focusing on a specific concept in modern
 
 ## Project Structure
 
+* **`string-view/`**: A simplified implementation of `std::string_view`. Focuses on non-owning string references, pointer arithmetic, efficient substring operations, and `const` correctness.
 * **`vector/`**: A manual implementation of a dynamic array (similar to `std::vector`). Focuses on raw memory management, the Rule of Five, and random-access iterators.
 * **`cow-vector/`**: A vector implementation utilizing the **Copy-On-Write (COW)** optimization technique. Focuses on reference counting and shallow vs. deep copying.
 * **`itertools/`**: A library of Python-like iterator adaptors (`Range`, `Zip`, `Group`). Focuses on lazy evaluation and custom iterator implementation.
