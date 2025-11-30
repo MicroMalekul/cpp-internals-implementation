@@ -6,15 +6,15 @@ Each folder represents an isolated task focusing on a specific concept in modern
 
 ## Project Structure
 
-* **`string-view/`**: A simplified implementation of `std::string_view`. Focuses on non-owning string references, pointer arithmetic, efficient substring operations, and `const` correctness.
-* **`vector/`**: A manual implementation of a dynamic array (similar to `std::vector`). Focuses on raw memory management, the Rule of Five, and random-access iterators.
-* **`cow-vector/`**: A vector implementation utilizing the **Copy-On-Write (COW)** optimization technique. Focuses on reference counting and shallow vs. deep copying.
-* **`itertools/`**: A library of Python-like iterator adaptors (`Range`, `Zip`, `Group`). Focuses on lazy evaluation and custom iterator implementation.
-* **`lru-cache/`**: An implementation of a Least Recently Used (LRU) cache policy with O(1) complexity. Focuses on combining data structures (`std::list` and `std::unordered_map`).
+* **`string-view/`**: A simplified implementation of `std::string_view`
+* **`vector/`**: A manual implementation of a dynamic array (similar to `std::vector`)
+* **`cow-vector/`**: A vector implementation utilizing the **Copy-On-Write (COW)** optimization technique
+* **`itertools/`**: A library of Python-like iterator adaptors (`Range`, `Zip`, `Group`).
+* **`lru-cache/`**: An implementation of a Least Recently Used (LRU) cache policy with O(1) complexity
 
 ## Prerequisites
 
-* C++ Compiler (GCC, Clang, or MSVC) supporting C++17 or C++20.
+* C++ Compiler supporting C++20.
 * CMake (Version 3.14 or higher).
 
 ## How to Build
